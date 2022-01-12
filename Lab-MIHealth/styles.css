@@ -1,0 +1,125 @@
+html, body {
+    background-color: rgb(230, 230, 230);
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    position: relative;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 10px;
+    padding-left: 70px;
+}
+h1 {
+    font-size: 36px;
+    margin-right: 300px;
+}
+h1:hover {
+    opacity: 50%;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-right: 150px;
+}
+li {
+    font-size: 24px;
+    margin: 10px;
+    padding: 15px;
+    margin-bottom: 0px;
+    border: solid 2px white;
+    border-radius: 15px;
+}
+li:hover {
+    background-color: yellowgreen;
+}
+.main-menu {
+    display: flex;
+    align-content: center;
+    max-width: fit-content;
+    margin: 50px auto 0px auto;
+}
+.healthy {
+    width: 300px;
+    margin-left: 70px;
+    padding-right: 50px;
+    height: 400px;
+}
+.menu-display {
+    display: flex;
+    height: 100%;
+    position: relative;
+}
+.item1 {
+    width: 250px;
+    height: 400px;
+    background-image: url(breakfast.jpg);
+    background-size: cover;
+    text-align: right;    
+    position: relative;
+    margin: 0px 10px 10px 0px;
+}
+.item2 {
+    width: 250px;
+    height: 400px;
+    background-image: url(lunch.jpg);
+    background-size: cover;
+    text-align: right;    
+    position: relative;
+    margin: 0px 10px 10px 0px;
+}
+.item3 {
+    width: 250px;
+    height: 400px;
+    background-image: url(dinner.jpg);
+    background-size: cover;
+    text-align: right;    
+    position: relative;
+    margin: 0px 10px 10px 0px;
+}
+#bottom-right {
+    position: absolute;
+    font-size: 18px;
+    bottom: 0px;
+    right: 0px;
+}
+h2 {
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+h3 {
+    background-color: white;
+    margin-bottom: 0px;
+    padding: 10px;
+    width: 70px;
+    margin-left: auto;
+    font-size: 24px;
+    font-weight: lighter;
+    width: fit-content;
+}
+#menu-items {
+    background-color: yellowgreen;
+    padding: 10px;
+    margin: 0%;
+    width: 100px;
+    font-size: 24px;
+    font-weight: lighter;
+}
+p {
+    margin-top: 0px;
+    font-size: 18px;
+}
+#browse-menu {
+    font-weight: 550;
+    margin-top: 25px;
+}
+#arrow {
+    font-size: 24px;
+}
